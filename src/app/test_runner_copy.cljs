@@ -3,7 +3,8 @@
   (:require [shadow.test.env :as env]
             [cljs.test :as ct]
             [shadow.test :as st]
-            [app.core-spec]))
+            [app.core-spec]
+            [app.core-devcards-spec]))
 
 ;; FIXME: add option to not exit the node process?
 (defmethod ct/report [::ct/default :end-run-tests] [m]

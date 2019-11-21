@@ -8,6 +8,6 @@
   :test-main-copy {:main app.test-runner-copy/main
                    :output-to "out/test-main-copy.js"
                    :target :node-test}}
- :dependencies []
+ :dependencies [[devcards "0.2.6"]]
  :nrepl {:port 3333}
  :source-paths ["src"]}
